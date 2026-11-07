@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Mintglide
+Comment=Configure Apple trackpad gestures
+Exec=mintglide-gui
+TryExec=mintglide-gui
+Icon=/usr/share/mintglide/mintglide-logo.png
+Terminal=false
+Categories=Settings;HardwareSettings;
+StartupNotify=true

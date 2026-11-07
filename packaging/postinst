@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+
+rm -f \
+    /etc/udev/rules.d/99-mintglide-trackpad.rules \
+    /etc/udev/rules.d/99-mac-trackpad.rules
+
+if command -v udevadm >/dev/null 2>&1; then
+    udevadm control --reload-rules
+    udevadm trigger --subsystem-match=input
+fi
+
+exit 0

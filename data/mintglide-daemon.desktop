@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Mintglide gesture daemon
+Comment=Enable Mintglide trackpad gestures in the desktop session
+Exec=/usr/bin/mintglide-daemon
+TryExec=/usr/bin/mintglide-daemon
+Terminal=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
