@@ -1,9 +1,12 @@
 # Mintglide
 
-Native C++17 multi-touch gesture daemon and GTKmm settings application for
-Apple trackpads on Linux Mint and other Linux distributions with an X11 desktop
-session. The daemon reads the Apple trackpad's evdev stream and synthesizes
-X11 shortcuts/buttons using XTest.
+Mintglide focuses on bringing useful Apple-style trackpad gestures to the
+MacBook Air 2017 (MacBookAir7,2) after installing Linux, especially Linux Mint
+with an X11 desktop session. It is a native C++17 gesture daemon and GTKmm
+settings application for the MacBook's Apple multitouch trackpad. The daemon
+reads evdev events and synthesizes X11 shortcuts and pointer actions using
+XTest. Other Apple multitouch trackpads may work, but are not the primary
+hardware target.
 
 ## Dependencies
 
